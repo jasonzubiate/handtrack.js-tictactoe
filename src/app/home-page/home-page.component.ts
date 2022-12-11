@@ -13,8 +13,9 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  prediction(event: PredictionEvent){
-    this.gesture = event.getPrediction();
-  }
+  // prediction(event: PredictionEvent){
+  //   this.gesture = event.getPrediction();
+  //   // console.log(this.gesture)
+  // }
 
 }

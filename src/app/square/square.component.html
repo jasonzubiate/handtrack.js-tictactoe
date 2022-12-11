@@ -1,0 +1,8 @@
+<button
+	[ngClass]="{
+		'square-neutral': value.includes('Hand'),
+		'square-selected': !value.includes('Hand')
+	}"
+>
+	{{ value }}
+</button>

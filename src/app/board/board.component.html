@@ -1,0 +1,23 @@
+<div class="container">
+	<h1>TIC TAC TOE</h1>
+	<app-handtracker (onPrediction)="prediction($event)"></app-handtracker>
+
+	<h2 class="player-label">
+		Current Player: <span class="player-icon">{{ player }}</span>
+	</h2>
+
+	<h2 *ngIf="winner">Player {{ winner }} won the game!</h2>
+
+	<div class="board">
+		<app-square
+			*ngFor="let square of squares; let i = index"
+			[value]="square"
+			(click)="makeMove(i)"
+		>
+		</app-square>
+	</div>
+
+	<button class="btn" nbButton outline status="danger" (click)="newGame()">
+		Start new Game
+	</button>
+</div>

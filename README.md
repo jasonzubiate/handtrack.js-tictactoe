@@ -1,27 +1,42 @@
-# AtAlternativeInteractionSolution
+--Readme document for *Jason Zubiate*, *jzubiate@uci.edu*, *90521308*--
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-## Development server
+25/25
+- 10/10 Created a functional web app
+- 5/5 The ability to control the web app with basic gestures (1pt per gesture)
+- 4/4 The ability to control the web app with at least two custom gestures
+- 2/2 Following good principles of UI design
+- 2/2 Creating a compelling app and application of gestures
+- 2/2 A readme and demo video which explains how these features were implemented and their design rationale
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. How long, in hours, did it take you to complete this assignment?
+  4
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. What online resources did you consult when completing this assignment? (list specific URLs)
+  https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+  https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps
+  https://masteringjs.io/tutorials/fundamentals/wait-1-second-then#:~:text=To%20delay%20a%20function%20execution,call%20fn%20after%201%20second.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
+  None
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Is there anything special we need to know in order to run your code?
+  It takes a while to load for some reason so you may not be able to interact with the UI for the first couple of seconds
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+--Aim for no more than two sentences for each of the following questions.--
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+6. Did you design your app with a particular type of user in mind? If so, whom?
+  I did not, this app could be used by all types of users.
+
+7. Describe the two custom gestures you created.
+  1) One Open Hand One Closed Hand
+  2) One Open Hand One Hand Pointing
+
+8. How does your app implement or follow principles of good UI design?
+  It is responsive to large, medium, and small devices and is fully playable without having to click the screen

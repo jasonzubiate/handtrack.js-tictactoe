@@ -1,0 +1,37 @@
+.square-neutral {
+	width: 200px;
+	height: 200px;
+	font-size: 1.7rem;
+	background-color: white;
+	border: none;
+	font-family: "Poppins" sans-serif;
+	cursor: pointer;
+	padding: 1rem;
+}
+.square-selected {
+	width: 200px;
+	height: 200px;
+	font-size: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border: none;
+	font-family: 'Bungee Shade', cursive;
+	color: rgb(226, 49, 43);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+	.square-neutral {
+		width: 100px;
+		height: 100px;
+		font-size: 1rem;
+	}
+	.square-selected {
+		width: 100px;
+		height: 100px;
+		font-size: 2.5rem;
+	}
+}
+

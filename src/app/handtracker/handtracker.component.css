@@ -1,7 +1,27 @@
-
-.videobox{
-    border: 3px solid #0063FF;
-    border-color: #0063FF;
-    width: 200px;
-    height: 200px;
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.videobox {
+	background-color: whitesmoke;
+	width: 200px;
+	height: 200px;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+.gesture-label {
+	font-family: "Poppins", sans-serif;
+	margin: 1rem 0rem;
+	background-color: white;
+	color: #252525;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	padding: 0.7rem 1rem;
+}
+.btn-group {
+	display: flex;
+	gap: 1rem;
 }

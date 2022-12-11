@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'at-alternative-interaction-solution';
+  title = 'a5-alternative-interaction-solution';
 }
